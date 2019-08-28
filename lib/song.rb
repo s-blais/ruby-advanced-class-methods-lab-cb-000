@@ -61,4 +61,8 @@ class Song
     song.artist_name = filename_array[0]
   end
 
+  def self.destroy_all
+    self.all.clear
+  end
+
 end
